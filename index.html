@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URLpdf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.php"></script>
+    
+</head>
+<body>
+    <h1>Upload de PDF</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="pdfFile">Escolha o arquivo PDF:</label>
+        <input type="file" name="pdfFile" id="pdfFile" accept=".pdf" required>
+        <br><br>
+        <input type="submit" value="Enviar PDF">
+    </form>
+
+</body>
+</html>
