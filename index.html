@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URLpdf</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.php"></script>
-    
+    <title>Upload de Arquivo PDF</title>
 </head>
 <body>
-    <h1>Upload de PDF</h1>
+    <h2>Envie um PDF</h2>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-        <label for="pdfFile">Escolha o arquivo PDF:</label>
-        <input type="file" name="pdfFile" id="pdfFile" accept=".pdf" required>
-        <br><br>
-        <input type="submit" value="Enviar PDF">
+        <label for="file">Escolha um arquivo PDF:</label><br>
+        <input type="file" name="file" id="file" accept="application/pdf"><br><br>
+        <input type="submit" value="Fazer upload">
     </form>
-
 </body>
 </html>
