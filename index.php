@@ -1,6 +1,6 @@
 <?php
 // Diretório onde os arquivos serão armazenados
-$target_dir = "uploads/";
+$target_dir = "C:\uploads";
 
 // Verifica se o diretório existe, se não, cria
 if (!is_dir($target_dir)) {
